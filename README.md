@@ -1,4 +1,7 @@
 # Slack Workflow Status
+**Forked from the original repo since at the time of writing (2024-02-06) the original still
+wasn't using Node 20, and the previous version of Node was getting deprecated and causing warnings.**
+
 This action will post workflow status notifications into your Slack channel. The notification includes the name of the Actor, Event, Branch, Workflow Name, Status and Run Durations. This action can optionally include the status and duration of individual jobs in a workflow to quickly help you identify where failures and slowdowns occur.
 
 <img src="./docs/images/example.png" title="Slack Example">
